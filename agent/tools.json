@@ -1,0 +1,24 @@
+[
+  {
+    "functionDeclarations": [
+      {
+        "name": "bashExec",
+        "description": "Execute safe terminal commands and return the command output.",
+        "parametersJsonSchema": {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "description": "The terminal command to execute"
+            },
+            "eventsString": {
+              "type": "string",
+              "description": "Short explanation of why this command is needed"
+            }
+          },
+          "required": ["command", "eventsString"]
+        }
+      }
+    ]
+  }
+]

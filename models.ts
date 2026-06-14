@@ -5,12 +5,12 @@ export const providers:string[] = [
 
 export const models = {
     "anthropic":{
-        "model":"claude-sonnet-4-6"
+        "models":["claude-sonnet-4-6"]
     },
     "openai":{
-        "model":"gpt-5.5"
+        "models":["gpt-5.5"]
     },
     "google":{
-        "model":"gemini-2.5-flash-lite"
+        "models":["gemini-2.5-flash", "gemini-pro", "gemini-1.5-flash", "gemini-1.5-pro"]
     }
 }
